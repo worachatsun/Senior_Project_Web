@@ -1,0 +1,64 @@
+.header {
+    height: 55px;
+    border-bottom: 1px solid #FF7F11;
+    background-color: white;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #FF7F11;
+    font-size: 14px;
+}
+
+.header-row {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    color: #FF7F11;
+}
+
+.header-pic {
+    height: 35px;
+    width: 35px;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 800px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+.custom-image img {
+  display: block;
+}
+.custom-card {
+  padding: 10px 16px;
+}
+.custom-card p {
+  color: #999;
+}
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.text-header-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
